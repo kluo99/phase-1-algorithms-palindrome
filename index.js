@@ -1,10 +1,22 @@
 function isPalindrome(word) {
   // Write your algorithm here
-}
+  let split = word.split("").reverse().join("");
+  return word === split;
+};
+
+isPalindrome("yes");
 
 /* 
   Add your pseudocode here
+  
+  1) Turn word into an array or letter
+  2) Add each array into another array
+  3) Reverse the words
+  4) Combine the letters
+  5) See if true
 */
+
+
 
 /*
   Add written explanation of your solution here
